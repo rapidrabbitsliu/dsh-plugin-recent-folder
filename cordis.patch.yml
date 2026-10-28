@@ -1,0 +1,3 @@
+- insert:
+    - id: recent-folder
+      name: '@local/dsh-plugin-recent-folder'

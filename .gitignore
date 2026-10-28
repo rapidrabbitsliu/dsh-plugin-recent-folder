@@ -1,0 +1,8 @@
+node_modules/
+permission-recovery/
+*.tgz
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
