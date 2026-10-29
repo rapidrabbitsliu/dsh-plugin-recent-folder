@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/dsh-plugin-recent-folder',
+  id: 'dsh-plugin-recent-folder',
   factory(require) {
     const React = require('react');
     const { createElement: h, useState, useEffect, useRef } = React;

@@ -20,7 +20,11 @@
 
 ## 安装
 
-通过 DSH 插件管理器以本包的绝对目录执行 `install_bundle`。无第三方依赖，无安装脚本，无需构建。不直接编辑 profile 文件。安装影响当前 profile 的全部会话。
+在 DSH 插件管理器中安装 npm 包 `dsh-plugin-recent-folder`；也可以通过 `install_bundle` 指定包名 `dsh-plugin-recent-folder@1.0.0` 或本地仓库的绝对目录。
+
+无第三方依赖，无安装脚本，无需构建。不直接编辑 profile 文件。安装影响当前 profile 的全部会话。
+
+若曾安装旧的本地包 `@local/dsh-plugin-recent-folder`，请先在插件管理器中移除旧包，再安装正式包，避免重复注册。已有目录历史仍会保留。
 
 ## 开发与检查
 

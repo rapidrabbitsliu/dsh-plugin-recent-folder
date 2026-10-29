@@ -65,7 +65,7 @@ test('prototype-like Host keys are treated as data', () => {
 });
 test('bundle resources and dependency-free manifest are complete', () => {
   const manifest = JSON.parse(readFileSync(new URL('../package.json', import.meta.url)));
-  assert.equal(manifest.name, '@local/dsh-plugin-recent-folder');
+  assert.equal(manifest.name, 'dsh-plugin-recent-folder');
   assert.equal(manifest.dependencies, undefined);
   for (const lang of ['en', 'zh']) {
     const locale = JSON.parse(readFileSync(new URL(`../locale/${lang}.json`, import.meta.url)));
